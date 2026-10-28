@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Haberimiz Olsun İzlenme Reels'i — Onay</title>
+<style>
+:root { --mavi:#ED1C24; --yesil:#2E9E5B; --lale:#D9480F; --zemin:#F7F5F2; --kart:#fff; --metin:#1E1E24; --ikincil:#6B6B75; --cizgi:#E4E1DC; --onayZemin:#EAF7F0; --duzZemin:#FDEDE6; --wa:#1FA855; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--zemin); color:var(--metin); font-family:-apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height:1.5; }
+header { background:var(--mavi); color:#fff; padding:28px 16px 24px; }
+header .ic, main { max-width:1100px; margin:0 auto; }
+h1 { margin:0 0 6px; font-size:26px; line-height:1.2; }
+header p { margin:0; opacity:.9; }
+main { padding:16px; }
+.genel { background:var(--kart); border-radius:14px; padding:18px 20px; margin:8px 0 18px; border:1px solid var(--cizgi); }
+.genel table { width:100%; border-collapse:collapse; font-size:15px; }
+.genel td { padding:7px 0; border-bottom:1px solid var(--cizgi); vertical-align:top; }
+.genel td:first-child { width:110px; color:var(--ikincil); font-weight:600; }
+.ozet { background:var(--kart); border:1px solid var(--cizgi); border-radius:14px; padding:14px 20px; margin:0 0 18px; font-size:15px; display:flex; gap:16px; flex-wrap:wrap; align-items:center; }
+.ozet .rozet { display:inline-block; padding:4px 12px; border-radius:999px; font-weight:700; font-size:14px; }
+.rozet.o { background:var(--onayZemin); color:#1E7A4F; } .rozet.d { background:var(--duzZemin); color:#B5301B; } .rozet.b { background:var(--zemin); color:var(--ikincil); }
+.icerik { background:var(--kart); border-radius:14px; padding:18px 20px 20px; margin:0 0 18px; border:2px solid var(--cizgi); }
+.icerik.onay { border-color:var(--yesil); }
+.icerik.duzeltme { border-color:var(--lale); }
+.bas { display:flex; gap:14px; align-items:center; margin-bottom:12px; }
+.no { flex:0 0 auto; width:42px; height:42px; border-radius:21px; background:var(--mavi); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:20px; }
+h2 { margin:0; font-size:20px; line-height:1.25; }
+.kunye { margin:2px 0 0; color:var(--ikincil); font-size:14px; }
+.icerik img { width:100%; height:auto; border-radius:10px; display:block; background:#2B2F33; }
+.aciklama { margin:8px 0 0; color:var(--ikincil); font-size:13px; }
+.resim { overflow-x:auto; border-radius:10px; }
+.kaydir { display:none; }
+ol { margin:12px 0 10px; padding-left:22px; font-size:15px; }
+li { margin:3px 0; }
+.ses { margin:0 0 14px; background:var(--zemin); border-radius:10px; padding:10px 14px; font-size:15px; }
+.ses b { color:var(--yesil); font-size:12px; letter-spacing:.06em; text-transform:uppercase; display:block; margin-bottom:3px; }
+.karar { display:flex; gap:10px; flex-wrap:wrap; }
+.sec { flex:1 1 200px; display:flex; align-items:center; gap:10px; padding:12px 14px; border-radius:10px; border:2px solid var(--cizgi); cursor:pointer; font-weight:600; font-size:16px; }
+.sec input { width:20px; height:20px; accent-color:var(--mavi); }
+.sec.onay:has(input:checked) { border-color:var(--yesil); background:var(--onayZemin); }
+.sec.duz:has(input:checked) { border-color:var(--lale); background:var(--duzZemin); }
+textarea { width:100%; margin-top:10px; min-height:64px; border-radius:10px; border:1px solid var(--cizgi); padding:10px 12px; font:inherit; font-size:15px; resize:vertical; }
+.yanitlar { margin-top:12px; display:flex; flex-direction:column; gap:8px; }
+.yanit { display:grid; grid-template-columns:auto 1fr; gap:4px 12px; padding:10px 14px; border-radius:10px; background:var(--zemin); border-left:4px solid var(--cizgi); font-size:14px; }
+.yanit.onay { border-left-color:var(--yesil); } .yanit.duzeltme { border-left-color:var(--lale); }
+.yanit .kim { font-weight:700; } .yanit .ne { grid-column:1 / -1; white-space:pre-wrap; }
+.yanit .zaman { color:var(--ikincil); font-size:13px; text-align:right; }
+.yanitlar h4 { margin:4px 0 0; font-size:13px; letter-spacing:.06em; text-transform:uppercase; color:var(--ikincil); }
+.gonder { position:sticky; bottom:0; background:var(--kart); border-top:1px solid var(--cizgi); padding:12px 16px; box-shadow:0 -4px 14px rgba(0,0,0,.06); }
+.gonder .ic { max-width:1100px; margin:0 auto; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.gonder input { flex:1 1 200px; min-width:0; padding:11px 12px; border-radius:10px; border:1px solid var(--cizgi); font:inherit; }
+.durum { flex:1 1 100%; font-size:14px; color:var(--ikincil); }
+button, .wa { border:0; border-radius:10px; padding:12px 16px; font:inherit; font-weight:700; cursor:pointer; text-decoration:none; display:inline-block; }
+.kaydet { background:var(--mavi); color:#fff; }
+.kaydet[disabled] { opacity:.6; cursor:wait; }
+[hidden] { display:none !important; }
+.kaydet.oldu { background:var(--yesil); }
+.perde { position:fixed; inset:0; background:rgba(20,30,40,.55); display:none; align-items:center; justify-content:center; padding:24px; z-index:50; }
+.perde.acik { display:flex; }
+.kutu { background:var(--kart); color:var(--metin); border-radius:18px; padding:28px 24px; max-width:420px; width:100%; text-align:center; box-shadow:0 20px 60px rgba(0,0,0,.35); }
+.kutu .simge { font-size:56px; line-height:1; margin-bottom:10px; }
+.kutu h3 { margin:0 0 8px; font-size:22px; }
+.kutu p { margin:0 0 18px; color:var(--ikincil); font-size:15px; line-height:1.4; }
+.kutu button { width:100%; }
+.kutu.bekle .simge { animation:don 1s linear infinite; display:inline-block; }
+.kutu.oldu h3 { color:var(--yesil); } .kutu.sorun h3 { color:var(--lale); }
+@keyframes don { to { transform:rotate(360deg); } }
+.wa { background:var(--wa); color:#fff; }
+.kopya { background:#E8ECEA; color:var(--metin); }
+@media (max-width: 640px) { .resim img { width:auto; height:420px; max-width:none; } .kaydir { display:inline; } .gonder { position:static; box-shadow:none; border-top:0; background:transparent; padding:0 16px 24px; } .gonder button, .gonder .wa { flex:1 1 45%; text-align:center; } }
+
+details.veri { margin:12px 0 14px; background:var(--zemin); border-radius:10px; padding:10px 14px; font-size:15px; }
+details.veri summary { cursor:pointer; font-weight:700; }
+details.veri table { width:100%; border-collapse:collapse; margin-top:8px; font-variant-numeric:tabular-nums; }
+details.veri th, details.veri td { text-align:left; padding:5px 6px; border-bottom:1px solid var(--cizgi); }
+details.veri th { color:var(--ikincil); font-size:13px; }
+details.veri tr.vurgu td { color:var(--mavi); font-weight:700; }
+details.veri a { color:inherit; }
+header .logo { height:56px; display:block; margin-bottom:12px; background:#fff; border-radius:10px; padding:6px 10px; }
+</style>
+</head>
+<body>
+<header><div class="ic">
+  <img class="logo" src="logo.png" alt="Haberimiz Olsun">
+  <h1>Haberimiz Olsun — Son 20 Bültenin İzlenmesi (Reels) · Görsel Onayı</h1>
+  <p>1 video · 14 Eylül – 28 Ekim 2026 bültenleri · 28.10.2026</p>
+</div></header>
+<main>
+  <div class="genel"><table>
+    <tr><td>Format</td><td>Dikey Reels (9:16), 1080×1920, 30 fps; yaklaşık 19 sn.</td></tr>
+    <tr><td>Tarz</td><td>Haberimiz Olsun kimliği: kırmızı-beyaz, programın logosu, yuvarlak hatlı yazı (Rubik).</td></tr>
+    <tr><td>Akış</td><td>Bülten kapakları dergi gibi üst üste düşer → tarihli grafikte izlenmeler toplanarak yükselir → logo ile kapanış.</td></tr>
+    <tr><td>Veri</td><td>YouTube izlenme sayıları, 28 Ekim 2026 itibarıyla (EBA oynatma listesindeki 20 “Tarihli Haber Bülteni”; GençSES ve özel yayınlar dahil değil). Yayından hemen önce sayılar yeniden çekilip güncellenebilir.</td></tr>
+    <tr><td>Ses</td><td>Seslendirme yok. Kulağı yormayan yumuşak bir fon müziği ve hafif efektler eklenecek (kapak düşüşü, sayaç, sıçrama vurgusu); <b>pafta yalnız görseli gösterir</b>.</td></tr>
+    <tr><td>Nasıl?</td><td>Adınızı yazın, “Onaylıyorum” ya da “Düzeltme istiyorum” seçip gerekirse not yazın; en altta <b>Kaydet</b>. Kayıt tamamlanınca ekranda yeşil “Kaydedildi” kutusu çıkar ve yanıtınız “Gelen yanıtlar” başlığıyla görünür. İsterseniz ayrıca “WhatsApp ile gönder” ya da “Kopyala”.</td></tr>
+  </table></div>
+  <div class="ozet" id="ozet">Yanıtlar yükleniyor…</div>
+<section class="icerik" id="v1" data-no="1" data-ad="SON 20 BÜLTENİN İZLENMESİ">
+  <div class="bas"><span class="no">1</span><div><h2>SON 20 BÜLTENİN İZLENMESİ</h2><p class="kunye">Kapak yığını + birikimli izlenme grafiği · yaklaşık 19 sn · müzik ve efekt</p></div></div>
+  <div class="resim"><a href="paftalar/pafta-1.jpg" target="_blank" rel="noopener"><img src="paftalar/pafta-1.jpg" alt="Son 20 bültenin izlenmesi — on iki an" loading="lazy"></a></div>
+  <p class="aciklama">Soldan sağa, üst sıradan alt sıraya: kapaklar (1–3), grafik (4–10), logo kapanış (11–12). Her karenin üstünde saniyesi yazar. Büyütmek için görsele tıklayın.<span class="kaydir"> Görseli yana kaydırabilirsiniz.</span></p>
+  <ol>
+    <li>Kapaklar: 14 Eylül’den bugüne 20 bültenin kapağı tarih etiketleriyle üst üste düşer; sayaç “20 BÜLTEN”e çıkar.</li>
+    <li>Grafik: tarih ekseninde 20 bülten (Eylül / Ekim); izlenmeler toplanarak yükselir, üstte toplam sayaç, altında o an eklenen bültenin kapağı, tarihi ve izlenmesi.</li>
+    <li>Sıçramalar kırmızı etiketle vurgulanır: 5 Ekim (+51.088), 23 Ekim (+58.796), 26 Ekim (+64.049).</li>
+    <li>Toplam: <b>267.783</b> izlenme · alt not “YouTube izlenme sayıları · 28 Ekim 2026 itibarıyla”.</li>
+    <li>Kapanış: Haberimiz Olsun logosu + “267.783 kez izlendi, teşekkürler!” + “Her Pazartesi, Çarşamba ve Cuma · EBA YouTube ve TRT EBA’da”.</li>
+  </ol>
+  <details class="veri"><summary>Bülten bülten izlenme sayıları (tıklayın)</summary>
+    <table>
+      <tr><th>Bülten</th><th>İzlenme</th><th>Birikimli</th></tr>
+      <tr><td>14 Eylül</td><td><a href="https://www.youtube.com/watch?v=bwcWaygn17Q" target="_blank" rel="noopener">6.075</a></td><td>6.075</td></tr>
+      <tr><td>16 Eylül</td><td><a href="https://www.youtube.com/watch?v=lw2TuvXh2yY" target="_blank" rel="noopener">6.027</a></td><td>12.102</td></tr>
+      <tr><td>18 Eylül</td><td><a href="https://www.youtube.com/watch?v=gANq-RkncVQ" target="_blank" rel="noopener">3.296</a></td><td>15.398</td></tr>
+      <tr><td>21 Eylül</td><td><a href="https://www.youtube.com/watch?v=ku4w1SMzZ7M" target="_blank" rel="noopener">4.066</a></td><td>19.464</td></tr>
+      <tr><td>23 Eylül</td><td><a href="https://www.youtube.com/watch?v=ZDPArbsc-tk" target="_blank" rel="noopener">3.456</a></td><td>22.920</td></tr>
+      <tr><td>25 Eylül</td><td><a href="https://www.youtube.com/watch?v=C2nqVfpQYDg" target="_blank" rel="noopener">2.546</a></td><td>25.466</td></tr>
+      <tr><td>28 Eylül</td><td><a href="https://www.youtube.com/watch?v=eGO570Nt90A" target="_blank" rel="noopener">5.138</a></td><td>30.604</td></tr>
+      <tr><td>30 Eylül</td><td><a href="https://www.youtube.com/watch?v=ztcwBzLUW98" target="_blank" rel="noopener">3.509</a></td><td>34.113</td></tr>
+      <tr><td>2 Ekim</td><td><a href="https://www.youtube.com/watch?v=HZi1ukNyJdE" target="_blank" rel="noopener">3.569</a></td><td>37.682</td></tr>
+      <tr class="vurgu"><td>5 Ekim</td><td><a href="https://www.youtube.com/watch?v=9HNApD9hVs8" target="_blank" rel="noopener">51.088</a></td><td>88.770</td></tr>
+      <tr><td>7 Ekim</td><td><a href="https://www.youtube.com/watch?v=qdvCGvaeFOM" target="_blank" rel="noopener">5.264</a></td><td>94.034</td></tr>
+      <tr><td>9 Ekim</td><td><a href="https://www.youtube.com/watch?v=NywOsrPUxDs" target="_blank" rel="noopener">6.646</a></td><td>100.680</td></tr>
+      <tr><td>12 Ekim</td><td><a href="https://www.youtube.com/watch?v=Xke3rf5pnLo" target="_blank" rel="noopener">6.765</a></td><td>107.445</td></tr>
+      <tr><td>14 Ekim</td><td><a href="https://www.youtube.com/watch?v=z2gBmpCpEok" target="_blank" rel="noopener">5.779</a></td><td>113.224</td></tr>
+      <tr><td>16 Ekim</td><td><a href="https://www.youtube.com/watch?v=y7K0-p3id74" target="_blank" rel="noopener">4.082</a></td><td>117.306</td></tr>
+      <tr><td>19 Ekim</td><td><a href="https://www.youtube.com/watch?v=L9WhKhoUYk8" target="_blank" rel="noopener">6.252</a></td><td>123.558</td></tr>
+      <tr><td>21 Ekim</td><td><a href="https://www.youtube.com/watch?v=hftGaMIQY9w" target="_blank" rel="noopener">4.648</a></td><td>128.206</td></tr>
+      <tr class="vurgu"><td>23 Ekim</td><td><a href="https://www.youtube.com/watch?v=JIA955sVIgE" target="_blank" rel="noopener">58.796</a></td><td>187.002</td></tr>
+      <tr class="vurgu"><td>26 Ekim</td><td><a href="https://www.youtube.com/watch?v=bqWLUL4wlRg" target="_blank" rel="noopener">64.049</a></td><td>251.051</td></tr>
+      <tr><td>28 Ekim</td><td><a href="https://www.youtube.com/watch?v=W45tMYDJjrM" target="_blank" rel="noopener">16.732</a></td><td>267.783</td></tr>
+    </table>
+  </details>
+  <div class="karar">
+    <label class="sec onay"><input type="radio" id="k1o" name="k1" value="onay"> Onaylıyorum</label>
+    <label class="sec duz"><input type="radio" id="k1d" name="k1" value="duzeltme"> Düzeltme istiyorum</label>
+  </div>
+  <textarea id="n1" name="n1" placeholder="Not (isteğe bağlı)"></textarea>
+  <div class="yanitlar" id="y1"></div>
+</section>
+</main>
+<div class="gonder"><div class="ic">
+  <input id="ad" placeholder="Ad Soyad (gerekli)">
+  <button class="kaydet" id="kaydet" type="button">Kaydet</button>
+  <a class="wa" id="wa" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp ile gönder</a>
+  <button class="kopya" id="kopya" type="button">Kopyala</button>
+  <div class="durum" id="durum"></div>
+</div></div>
+<div class="perde" id="perde" role="dialog" aria-live="assertive"><div class="kutu" id="kutu">
+  <div class="simge" id="kSimge">⏳</div><h3 id="kBaslik">Kaydediliyor…</h3><p id="kMetin">Lütfen bekleyin.</p>
+  <button class="kaydet" id="kTamam" type="button" hidden>Tamam</button>
+</div></div>
+<script>
+window.ONAY_SCRIPT_URL = 'BURAYA_APPS_SCRIPT_URL';
+const ANAHTAR = 'haberimiz-olsun-izlenme-onay-2810';
+const bolumler = [...document.querySelectorAll('.icerik')];
+const durum = (t) => { document.getElementById('durum').textContent = t; };
+function oku() { try { return JSON.parse(localStorage.getItem(ANAHTAR) || '{}'); } catch (e) { return {}; } }
+function yaz(v) { try { localStorage.setItem(ANAHTAR, JSON.stringify(v)); } catch (e) {} }
+function topla() {
+  const v = {ad: document.getElementById('ad').value.trim()};
+  bolumler.forEach(b => { const no = b.dataset.no; const s = b.querySelector('input:checked'); v['k' + no] = s ? s.value : ''; v['n' + no] = b.querySelector('textarea').value; });
+  return v;
+}
+function metin() {
+  const v = topla();
+  const satir = bolumler.map(b => {
+    const no = b.dataset.no, k = v['k' + no], n = v['n' + no].trim();
+    const d = k === 'onay' ? 'ONAY' : k === 'duzeltme' ? 'DÜZELTME' : 'işaretlenmedi';
+    return no + '. ' + b.dataset.ad + ': ' + d + (n ? ' — ' + n : '');
+  });
+  return "Haberimiz Olsun izlenme Reels'i — onay" + (v.ad ? ' (' + v.ad + ')' : '') + '\n' + satir.join('\n');
+}
+function guncelle() {
+  const v = topla(); yaz(v);
+  bolumler.forEach(b => { const k = v['k' + b.dataset.no]; b.classList.toggle('onay', k === 'onay'); b.classList.toggle('duzeltme', k === 'duzeltme'); });
+  document.getElementById('wa').href = 'https://wa.me/?text=' + encodeURIComponent(metin());
+}
+(function yukle() {
+  const v = oku();
+  if (v.ad) document.getElementById('ad').value = v.ad;
+  bolumler.forEach(b => { const no = b.dataset.no; if (v['k' + no]) { const r = b.querySelector('input[value="' + v['k' + no] + '"]'); if (r) r.checked = true; } if (v['n' + no]) b.querySelector('textarea').value = v['n' + no]; });
+  guncelle();
+})();
+document.addEventListener('input', guncelle);
+document.addEventListener('change', guncelle);
+document.getElementById('kopya').onclick = async () => {
+  const t = metin();
+  try { await navigator.clipboard.writeText(t); durum('Kopyalandı; mesaja yapıştırabilirsiniz.'); }
+  catch (e) { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); durum('Kopyalandı; mesaja yapıştırabilirsiniz.'); }
+};
+
+/* ── Paylaşılan yanıtlar: Google Apps Script web uygulaması (apps-script/Code.gs) ── */
+const URL = window.ONAY_SCRIPT_URL;
+const hazir = () => URL && !URL.includes('BURAYA');
+const zamanYaz = (t) => { try { return new Date(t).toLocaleString('tr-TR', {day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'}); } catch (e) { return t; } };
+function ciz(satirlar) {
+  const son = {}; // her video için her kişinin SON yanıtı
+  satirlar.forEach(s => { son[s.no + '|' + s.ad] = s; });
+  const liste = Object.values(son).sort((a, b) => new Date(b.zaman) - new Date(a.zaman));
+  let onay = 0, duz = 0;
+  bolumler.forEach(b => {
+    const no = b.dataset.no;
+    const y = liste.filter(s => String(s.no) === String(no));
+    const kutu = b.querySelector('.yanitlar');
+    if (!y.length) { kutu.innerHTML = ''; return; }
+    // Video durumu: herhangi birinin son yanıtı "düzeltme" ise düzeltme; yoksa onay.
+    if (y.some(s => s.karar === 'duzeltme')) duz++; else if (y.some(s => s.karar === 'onay')) onay++;
+    b.classList.toggle('duzeltme', y.some(s => s.karar === 'duzeltme'));
+    b.classList.toggle('onay', !y.some(s => s.karar === 'duzeltme') && y.some(s => s.karar === 'onay'));
+    kutu.innerHTML = '<h4>Gelen yanıtlar</h4>' + y.map(s => '<div class="yanit ' + s.karar + '"><span class="kim">' + esc(s.ad) + ' · ' + (s.karar === 'onay' ? 'Onaylıyorum' : s.karar === 'duzeltme' ? 'Düzeltme istiyorum' : '—') + '</span><span class="zaman">' + esc(zamanYaz(s.zaman)) + '</span>' + (s.not ? '<span class="ne">' + esc(s.not) + '</span>' : '') + '</div>').join('');
+  });
+  const bos = bolumler.length - onay - duz;
+  document.getElementById('ozet').innerHTML = '<span>Son durum (en son yanıtlara göre):</span><span class="rozet o">' + onay + ' onay</span><span class="rozet d">' + duz + ' düzeltme</span><span class="rozet b">' + bos + ' yanıtsız</span>';
+}
+function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+async function yanitlariGetir() {
+  if (!hazir()) { document.getElementById('ozet').textContent = 'Yanıt kaydı henüz bağlı değil (SCRIPT_URL ayarlanmadı).'; return; }
+  try {
+    const r = await fetch(URL + '?t=' + Date.now(), {cache: 'no-store'});
+    const j = await r.json();
+    ciz(j.satirlar || []);
+  } catch (e) { document.getElementById('ozet').textContent = 'Yanıtlar yüklenemedi; sayfayı yenileyin.'; }
+}
+const kutu = (tur, simge, baslik, metin, dugme) => {
+  const k = document.getElementById('kutu'); k.className = 'kutu ' + tur;
+  document.getElementById('kSimge').textContent = simge; document.getElementById('kBaslik').textContent = baslik; document.getElementById('kMetin').textContent = metin;
+  document.getElementById('kTamam').hidden = !dugme; document.getElementById('perde').classList.add('acik');
+};
+document.getElementById('kTamam').onclick = () => document.getElementById('perde').classList.remove('acik');
+async function satirSay() { try { const r = await fetch(URL + '?t=' + Date.now(), {cache: 'no-store'}); const j = await r.json(); return (j.satirlar || []).length; } catch (e) { return -1; } }
+document.getElementById('kaydet').onclick = async () => {
+  const v = topla();
+  if (!v.ad) { kutu('sorun', '✋', 'Adınızı yazın', 'Kaydetmeden önce alttaki kutuya adınızı yazmanız gerekiyor.', true); document.getElementById('ad').focus(); return; }
+  const kayitlar = bolumler.map(b => ({no: b.dataset.no, ad: v.ad, karar: v['k' + b.dataset.no], not: (v['n' + b.dataset.no] || '').trim()})).filter(k => k.karar || k.not);
+  if (!kayitlar.length) { kutu('sorun', '✋', 'Seçim yok', 'En az bir bölüm için “Onaylıyorum” ya da “Düzeltme istiyorum” seçin ya da bir not yazın.', true); return; }
+  if (!hazir()) { kutu('sorun', '⚠️', 'Kayıt bağlı değil', 'Lütfen “Kopyala” ya da “WhatsApp ile gönder” ile iletin.', true); return; }
+  const dugme = document.getElementById('kaydet'); dugme.disabled = true; durum('Kaydediliyor…');
+  kutu('bekle', '⏳', 'Kaydediliyor…', 'Yanıtlarınız gönderiliyor, lütfen bekleyin.', false);
+  const onceki = await satirSay();
+  let gonderildi = false;
+  try {
+    await fetch(URL, {method: 'POST', mode: 'no-cors', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body: JSON.stringify({kayitlar})});
+    gonderildi = true;
+  } catch (e) {}
+  // Kaydın gerçekten tabloya düştüğünü sunucudan geri okuyarak doğrula (en çok ~24 sn).
+  let dogrulandi = false;
+  if (gonderildi) {
+    for (let i = 0; i < 12 && !dogrulandi; i++) {
+      await new Promise(r => setTimeout(r, 2000));
+      const simdi = await satirSay();
+      if (onceki >= 0 && simdi >= onceki + kayitlar.length) dogrulandi = true;
+    }
+  }
+  await yanitlariGetir();
+  if (dogrulandi) {
+    kutu('oldu', '✅', 'Kaydedildi', kayitlar.length + ' içerik için yanıtınız kaydedildi ve aşağıda “Gelen yanıtlar” altında görünüyor. Teşekkürler!', true);
+    durum('Kaydedildi (' + kayitlar.length + ' içerik). Teşekkürler.');
+    dugme.classList.add('oldu'); dugme.textContent = 'Kaydedildi ✓'; setTimeout(() => { dugme.classList.remove('oldu'); dugme.textContent = 'Kaydet'; }, 8000);
+    try { navigator.vibrate && navigator.vibrate(80); } catch (e) {}
+  } else if (gonderildi) {
+    kutu('sorun', '⚠️', 'Gönderildi, doğrulanamadı', 'Yanıtınız gönderildi ama sayfada henüz görünmedi. Sayfayı yenileyip “Gelen yanıtlar” altına bakın; görünmüyorsa “Kopyala” ile WhatsApp’tan iletin.', true);
+    durum('Gönderildi; doğrulanamadı.');
+  } else {
+    kutu('sorun', '❌', 'Kaydedilemedi', 'Bağlantı kurulamadı. Lütfen “Kopyala” ya da “WhatsApp ile gönder” ile iletin.', true);
+    durum('Kaydedilemedi.');
+  }
+  dugme.disabled = false;
+};
+yanitlariGetir();
+</script>
+</body>
+</html>
